@@ -1,0 +1,46 @@
+body {
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+    font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New', monospace;
+}
+
+.invalid-Field {
+    border-color: #dc3545;
+    color: #dc3545;
+    background-color: #fff;
+}
+
+table div.card-body {
+    text-align: center;
+}
+
+div.card:hover {
+    box-shadow: rgba(0, 0, 0, 0.35)0px 5px 15px;
+}
+
+table div.card-body:hover button {
+    visibility: visible;
+}
+
+div.card img {
+    width: 175px;
+    height: 175px;
+    margin: 30px;
+}
+
+table tr td:not(:nth-child(3)) {
+    border-right: 1px solid#00000020;
+}
+
+table tr:not(:last-child) td {
+    border-bottom: 1px solid#00000020;
+}
+
+table div.card .delete-button {
+    visibility: hidden;
+}
